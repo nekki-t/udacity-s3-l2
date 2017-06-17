@@ -1,0 +1,104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B76EA124933867E989CCA098 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B76EA305BD7A49C4AE295D86 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B76EA4B7513243989B3545B1 /* Dockerfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
+		B76EA4C4EB53BD777D771398 /* swagger.yaml */ = {isa = PBXFileReference; lastKnownFileType = file.yaml; path = swagger.yaml; sourceTree = "<group>"; };
+		B76EAA081ADA06BF30CD15CD /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-version"; path = ".swift-version"; sourceTree = "<group>"; };
+		B76EAC43F71139F71CA01E34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		B76EAD648346342FEBD1F91C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B76EAE32297CEC73F6B43BF3 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		B76EAF3F579D3979B4954083 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B76EAF8E886EA20313AB0A69 /* Package.pins */ = {isa = PBXFileReference; lastKnownFileType = file.pins; path = Package.pins; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B76EA62D1F6D9D9FF6402E3E = {
+			isa = PBXGroup;
+			children = (
+				B76EA7948769C19937DD8191 /* Products */,
+				B76EAA081ADA06BF30CD15CD /* .swift-version */,
+				B76EA124933867E989CCA098 /* README.md */,
+				B76EAD648346342FEBD1F91C /* LICENSE */,
+				B76EAF8E886EA20313AB0A69 /* Package.pins */,
+				B76EA4C4EB53BD777D771398 /* swagger.yaml */,
+				B76EA9C31B122109138113BC /* Sources */,
+				B76EA305BD7A49C4AE295D86 /* Package.swift */,
+				B76EAC43F71139F71CA01E34 /* .gitignore */,
+				B76EA4B7513243989B3545B1 /* Dockerfile */,
+			);
+			sourceTree = "<group>";
+		};
+		B76EA7948769C19937DD8191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76EA9C31B122109138113BC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B76EAF3F579D3979B4954083 /* main.swift */,
+				B76EAE32297CEC73F6B43BF3 /* Date+Extension.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B76EAA055EEA4110D2066BCA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B76EA1DD00BC50198B8C0E9F /* Build configuration list for PBXProject "L2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B76EA62D1F6D9D9FF6402E3E;
+			productRefGroup = B76EA7948769C19937DD8191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B76EA977B6BC816168F83FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B76EAAD060BBE21DA992F936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B76EA1DD00BC50198B8C0E9F /* Build configuration list for PBXProject "L2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76EAAD060BBE21DA992F936 /* Debug */,
+				B76EA977B6BC816168F83FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B76EAA055EEA4110D2066BCA /* Project object */;
+}
